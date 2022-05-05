@@ -5,6 +5,7 @@ public class sample_branch {
     float cgpa;
     String name,address;
 
+
     string car_no,blood_group;
 
     public sample_branch(string car_no, string blood_group) {
@@ -26,6 +27,19 @@ public class sample_branch {
 
     public void setBlood_group(string blood_group) {
         this.blood_group = blood_group;
+      
+    int income;
+
+    public sample_branch(int income) {
+        this.income = income;
+    }
+
+    public int getIncome() {
+        return income;
+    }
+
+    public void setIncome(int income) {
+        this.income = income;
     }
 
     public sample_branch(int id, float cgpa, String name, String address) {
