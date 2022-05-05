@@ -1,9 +1,10 @@
-public class inmypc {
+package inmypc;
 
+public class myclass {
     int roll;
     String name;
 
-    public inmypc(int roll, String name) {
+    public myclass(int roll, String name) {
         this.roll = roll;
         this.name = name;
     }
