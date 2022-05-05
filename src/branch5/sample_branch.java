@@ -5,6 +5,20 @@ public class sample_branch {
     float cgpa;
     String name,address;
 
+    int income;
+
+    public sample_branch(int income) {
+        this.income = income;
+    }
+
+    public int getIncome() {
+        return income;
+    }
+
+    public void setIncome(int income) {
+        this.income = income;
+    }
+
     public sample_branch(int id, float cgpa, String name, String address) {
         this.id = id;
         this.cgpa = cgpa;
